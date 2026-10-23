@@ -1,5 +1,4 @@
 def delete_element(arr, index):
-    """Delete the element at the given index."""
     if 0 <= index < len(arr):
         deleted_value = arr[index]
         arr.pop(index)

@@ -1,5 +1,4 @@
 def insert_element(arr, index, value):
-    """Insert value at index in a Python list."""
     if 0 <= index <= len(arr):
         arr.insert(index, value)
     return arr
